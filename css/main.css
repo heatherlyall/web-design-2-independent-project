@@ -1,0 +1,121 @@
+html {
+  background-color: #EEEEEE;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: 'Special Elite', cursive;
+}
+
+.masthead {
+  background-color: #EEEEEE;
+  color: #000000;
+}
+
+.deathlogo {
+  width: 15%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo-text {
+  display: inline-block;
+  width: 5em;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Special Elite', cursive;
+}
+
+.nav a:hover span {
+  color: #8B0101;
+}
+
+.banner-image img {
+  width: 120%;
+}
+
+.banner-image {
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer-text {
+  text-align: center;
+}
+.btn {
+  background-color: #0fcdd6;
+  color: #000;
+  border-color: #0fcdd6;
+}
+
+.btn-banner {
+  border-color: #0fcdd6;
+  color: #000;
+}
+
+.btn-banner:hover,
+.btn-banner:focus {
+  background-color: #0fcdd6;
+  border-color: #000;
+  color: #000;
+}
+
+.footer {
+  background-color: #EEEEEE;
+  color: #000000;
+}
+
+.header-two {
+  font-family: "Bebas Neue", cursive;
+  color: #000;
+}
+
+.bottom-text {
+  top: 0;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-content {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-img {
+  height: 100vh;
+  width: 100%;
+}
+
+.signupbb {
+  color: #0fcdd6;
+}
+
+caption {
+  color: #fff;
+}
+
+.dj {
+  width: 100%;
+}
+
+.form-stuff {
+  color: #0fcdd6;
+}
+
+
+
+}
