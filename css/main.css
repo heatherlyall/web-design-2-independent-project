@@ -42,34 +42,33 @@ html {
 
 .banner-image {
   width: 50%;
-  left: 50%;
+  left: 49%;
   transform: translateX(-50%);
+  position: relative;
 }
 
 .footer-text {
   text-align: center;
 }
 .btn {
-  background-color: #0fcdd6;
+  background-color: #580000;
   color: #000;
-  border-color: #0fcdd6;
+  left: 10em;
 }
 
 .btn-banner {
-  border-color: #0fcdd6;
   color: #000;
 }
 
 .btn-banner:hover,
 .btn-banner:focus {
-  background-color: #0fcdd6;
-  border-color: #000;
-  color: #000;
+  background-color: #EEEEEE;
+  color: #580000;
 }
 
 .footer {
   background-color: #EEEEEE;
-  color: #000000;
+  color: #580000;
 }
 
 .header-two {
@@ -81,9 +80,13 @@ html {
   top: 0;
 }
 
-.banner {
+.banner-scream-img {
   overflow: hidden;
   position: relative;
+  width: 100%;
+  line-height: 0;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .banner-content {
@@ -116,6 +119,6 @@ caption {
   color: #0fcdd6;
 }
 
-
-
+.paragraph {
+  color: #580000;
 }
