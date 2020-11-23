@@ -24,16 +24,11 @@ html {
 
 .nav {
   text-align: center;
-  margin-left: 3em;
-  margin-right: 3em;
-  grid-column: 2 / -1;
-  grid-row: 1;
-  z-index: 1;
-  display: grid;
 }
 
 .nav li {
   list-style-type: none;
+  margin-top: 0;
 }
 
 .nav a {
@@ -42,14 +37,18 @@ html {
   font-family: 'Special Elite', cursive;
 }
 
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
 
 .nav a:hover span {
   color: #8B0101;
 }
 
-.banner-image img {
-  width: 120%;
-}
 
 .banner-image {
   width: 50%;
@@ -60,15 +59,18 @@ html {
 
 .footer-text {
   text-align: center;
+  padding-top: 1em;
 }
 .btn {
   background-color: #580000;
-  color: #000;
-  left: 10em;
+  color: #EEEEEE;
+  padding: .5rem;
+  border-radius: 2em;
+  margin-top: 1rem;
 }
 
 .btn-banner {
-  color: #000;
+  color: #EEEEEE;
 }
 
 .btn-banner:hover,
@@ -91,43 +93,19 @@ html {
   top: 0;
 }
 
-.banner-scream-img {
-  overflow: hidden;
+.main-banner {
   position: relative;
-  width: 100%;
-  line-height: 0;
-  padding-bottom: 0;
-  margin: 0;
 }
 
-.banner-content {
-  top: 0;
-  left: 0;
-  right: 0;
+.banner-image {
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
   position: absolute;
-  color: #fff;
-  text-align: center;
-}
-
-.banner-img {
-  height: 100vh;
-  width: 100%;
-}
-
-.signupbb {
-  color: #0fcdd6;
 }
 
 caption {
   color: #fff;
-}
-
-.dj {
-  width: 100%;
-}
-
-.form-stuff {
-  color: #0fcdd6;
 }
 
 .paragraph {
@@ -135,8 +113,9 @@ caption {
 }
 
 .img-flex {
-  display: block;
+  display: flex;
   width: 100%;
+  margin: 0;
 }
 
 .skip-links {
@@ -166,4 +145,8 @@ caption {
 .skip-links button:focus {
   outline-offset: 3px;
   top: 0;
+}
+
+.hospital {
+  width: 120%;
 }
