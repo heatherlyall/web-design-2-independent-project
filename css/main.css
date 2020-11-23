@@ -24,6 +24,12 @@ html {
 
 .nav {
   text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+  grid-column: 2 / -1;
+  grid-row: 1;
+  z-index: 1;
+  display: grid;
 }
 
 .nav li {
@@ -35,6 +41,7 @@ html {
   text-decoration: none;
   font-family: 'Special Elite', cursive;
 }
+
 
 .nav a:hover span {
   color: #8B0101;
