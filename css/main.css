@@ -28,7 +28,7 @@ html {
 
 .nav li {
   list-style-type: none;
-  margin-top: 0;
+  margin: 0;
 }
 
 .nav a {
@@ -104,6 +104,10 @@ html {
   position: absolute;
 }
 
+.banner-img {
+  position: absolute;
+}
+
 caption {
   color: #fff;
 }
@@ -149,4 +153,77 @@ caption {
 
 body {
   margin: 0;
+}
+
+.cards {
+  margin-top: ;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+}
+
+.cards li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  margin-top: 3rem;
+  max-width: 15em;
+  padding: 1em;
+  background-color: #EEEEEE;
+  border: 3px solid #EEEEEE;
+  border-radius: 10px;
+}
+
+.cards img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.cards strong {
+  display: block;
+  margin-bottom: .5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.cards dl {
+  margin-bottom: 1rem;
+}
+
+.cards dt {
+  display: block;
+  text-align: center;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 4rem;
+  color: #8B0101;
+}
+
+.cards dd {
+  display: block;
+  margin: 0;
+  min-width: 9em;
+  text-align: center;
+}
+
+.cards div {
+  text-align: center;
+}
+
+.cards a {
+  display: inline-block;
+  padding: .5em .75em;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #580000;
+  color: #EEEEEE;
+}
+
+.cards a:hover {
+  background-color: #EEEEEE;
+  color: #580000;
+}
+
+
+.banner-img {
+  width: 100%;
 }
