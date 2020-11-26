@@ -97,15 +97,28 @@ html {
   position: relative;
 }
 
-.banner-image {
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
+
+.banner-image {
+/* width: 50%;
+left: 49%;
+transform: translateX(-50%);
+position: relative; */
+position: relative;
+background-image: url(../images/spookycar.jpg);
+}
+
 
 .banner-img {
   position: absolute;
+}
+
+.intro-img {
+  display: flex;
+  width: 100%;
 }
 
 caption {
@@ -220,6 +233,15 @@ body {
 .cards a:hover {
   background-color: #EEEEEE;
   color: #580000;
+}
+
+.intro {
+  border-top: #580000 .2rem solid;
+  border-bottom: #580000 .2rem solid;
+  padding: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
 }
 
 
