@@ -57,6 +57,7 @@ html {
   position: relative;
 }
 
+
 .footer-text {
   text-align: center;
   padding-top: 1em;
@@ -99,7 +100,31 @@ html {
 
 .wrapper {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr;
+}
+
+.tests {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #580000;
+  padding: 1em;
+  margin-left: 5em;
+  margin-right: 5rem;
+}
+
+.quotes {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.quotes-2 {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.quotes-3 {
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 .banner-image {
@@ -108,7 +133,12 @@ left: 49%;
 transform: translateX(-50%);
 position: relative; */
 position: relative;
-background-image: url(../images/spookycar.jpg);
+}
+
+.main-banner {
+  background-image: url("../images/apocolypse-hallway.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 
