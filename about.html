@@ -12,6 +12,8 @@
 </head>
 <body>
 
+    <main role="main" id="main" tabindex="0">
+
   <ul class="skip-links">
     <li><a href="#nav">Skip to navigation</a></li>
     <li><a href="#main">Skip to the main content</a></li>
@@ -27,12 +29,35 @@
     </nav>
   </header>
 
+
   <div class="intro">
-    <img class="intro-img" src="images/spooky-window.jpg" alt="">
-    <h2 class=" mega pad-t intro-death">Death Wish is both a thrilling and chilling experience from the “safety” of your own vehicle. This drive thru experience is perfect for anyone who enjoys an immersive haunted house experience. If you thought 2020 couldn’t get any scarier, then you should visit us at 666 Raven Falls Drive. </h2>
+    <img class="intro-img" src="images/bird-skull.jpg" alt="">
+    <h2 class=" mega pad-t intro-death">Will you survive the immersive horror attraction that’s got everyone DYING to go? This drive thru experience will take you through the chilling story of Ravenhill Hospital, an abandoned mental asylum that was once the most petrifying place for patients to be. You will be isolated in your car while the victims that used to live here will still be roaming the halls, recounting everything that once happened through different sets, sounds, and special effects. Come join us, if you dare….
+ </h2>
   </div>
 
-  <main role="main" id="main" tabindex="0">
+  <h3 class="pad-t another-title">Questions?</h3>
+
+  <div class="container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email">
+
+        <label for="tel">Phone number <em class="flag-optional">(optional)</em></label>
+        <input type="text" id="tel">
+
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="Insert Message Here" style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
   </main>
 
   <footer role="contentinfo">
