@@ -49,6 +49,27 @@ html {
   color: #8B0101;
 }
 
+.navthings {
+  margin-bottom: 2em;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  margin-left: 5em;
+  margin-right: 5em;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.images img {
+  width:75px;
+  height: auto;
+}
+
+.alignthenav {
+  padding-top: 0;
+}
 
 .banner-image {
   width: 50%;
