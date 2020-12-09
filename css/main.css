@@ -53,18 +53,17 @@ html {
   margin-bottom: 2em;
 }
 
+.banner-icon {
+  width: 6%;
+  margin-bottom: 3em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
 .images {
   display: flex;
   align-items: center;
-  margin-left: 5em;
-  margin-right: 5em;
   justify-content: space-between;
   vertical-align: middle;
-}
-
-.images img {
-  width:75px;
-  height: auto;
 }
 
 .alignthenav {
@@ -129,6 +128,7 @@ html {
 .wrapper {
   display: grid;
   grid-template-rows: 2fr 2fr 2fr;
+  margin: 0 auto;
 }
 
 .tests {
@@ -321,18 +321,6 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
 }
 
-input[type=submit] {
-  background-color: #8B0101;
-  color: white;
-  padding: 20px 20px;
-  border: none;
-  border-radius: 4px;
-  justify-content: center;
-}
-
-input[type=submit]:hover {
-  background-color: #580000;
-}
 
 .container {
   border-radius: 5px;
@@ -359,4 +347,17 @@ input[type=submit]:hover {
 
 .another-title {
   margin-left: 1rem;
+}
+
+.warning {
+ color: #8b0101;
+}
+
+.warning-2 {
+  color: #8b0101;
+  margin-top: 2rem;
+}
+
+.text-underneath {
+  margin-left: 2em;
 }
