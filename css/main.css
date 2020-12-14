@@ -1,12 +1,12 @@
 html {
-  background-color: #EEEEEE;
-  font-family: 'Sedgwick Ave Display', cursive;
-  font-family: 'Special Elite', cursive;
+  background-color: #eee;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-family: "Special Elite", cursive;
 }
 
 .masthead {
-  background-color: #EEEEEE;
-  color: #000000;
+  background-color: #eee;
+  color: #000;
 }
 
 .deathlogo {
@@ -32,9 +32,9 @@ html {
 }
 
 .nav a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
 }
 
 .nav-list {
@@ -44,9 +44,8 @@ html {
   justify-content: center;
 }
 
-
 .nav a:hover span {
-  color: #8B0101;
+  color: #8b0101;
 }
 
 .navthings {
@@ -59,11 +58,11 @@ html {
   width: 100%;
   text-align: center;
 }
+
 .images {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  vertical-align: middle;
   width: 100%;
 }
 
@@ -74,14 +73,14 @@ html {
   position: relative;
 }
 
-
 .footer-text {
   text-align: center;
   padding-top: 1em;
 }
+
 .btn {
   background-color: #580000;
-  color: #EEEEEE;
+  color: #eee;
   padding: .5rem;
   border-radius: 2em;
   margin-top: 1rem;
@@ -95,17 +94,17 @@ html {
 }
 
 .btn-banner {
-  color: #EEEEEE;
+  color: #eee;
 }
 
 .btn-banner:hover,
 .btn-banner:focus {
-  background-color: #EEEEEE;
+  background-color: #eee;
   color: #580000;
 }
 
 .footer {
-  background-color: #EEEEEE;
+  background-color: #eee;
   color: #580000;
 }
 
@@ -121,7 +120,6 @@ html {
 .main-banner {
   position: relative;
 }
-
 
 .tests {
   display: grid;
@@ -148,11 +146,11 @@ html {
 }
 
 .banner-image {
-/* width: 50%;
-left: 49%;
-transform: translateX(-50%);
-position: relative; */
-position: relative;
+  /* width: 50%;
+  left: 49%;
+  transform: translateX(-50%);
+  position: relative; */
+  position: relative;
 }
 
 .main-banner {
@@ -160,8 +158,6 @@ position: relative;
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
-
 
 caption {
   color: #fff;
@@ -210,7 +206,6 @@ body {
   margin: 0;
 }
 
-
 .intro {
   border-top: #580000 .2rem solid;
   border-bottom: #580000 .2rem solid;
@@ -219,7 +214,6 @@ body {
   margin-right: 2em;
   margin-top: 2em;
 }
-
 
 .banner-img {
   width: 100%;
@@ -233,7 +227,7 @@ textarea {
   grid-template-rows: 1fr 1fr;
 }
 
-input[type=text], select, textarea {
+input[type="text"], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #580000;
@@ -242,7 +236,6 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
 }
-
 
 .container {
   border-radius: 5px;
@@ -262,7 +255,6 @@ input[type=text], select, textarea {
   grid-column: 1;
 }
 
-
 .intro-death {
   grid-column: 2;
   font-size: .8232rem;
@@ -274,7 +266,7 @@ input[type=text], select, textarea {
 }
 
 .warning {
- color: #8b0101;
+  color: #8b0101;
 }
 
 .warning-2 {
@@ -286,7 +278,6 @@ input[type=text], select, textarea {
   margin-left: 2em;
   margin-top: 4em;
 }
-
 
 .wrapper {
   margin: 0 auto;
@@ -314,8 +305,8 @@ input[type=text], select, textarea {
   margin-top: 3rem;
   max-width: 15em;
   padding: 1em;
-  background-color: #EEEEEE;
-  border: 3px solid #EEEEEE;
+  background-color: #eee;
+  border: 3px solid #eee;
   border-radius: 10px;
 }
 
@@ -338,9 +329,9 @@ input[type=text], select, textarea {
 .cards dt {
   display: block;
   text-align: center;
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
   font-size: 4rem;
-  color: #8B0101;
+  color: #8b0101;
 }
 
 .cards dd {
@@ -360,11 +351,11 @@ input[type=text], select, textarea {
   border-radius: 4px;
   text-decoration: none;
   background-color: #580000;
-  color: #EEEEEE;
+  color: #eee;
 }
 
 .cards a:hover {
-  background-color: #EEEEEE;
+  background-color: #eee;
   color: #580000;
 }
 
@@ -374,23 +365,24 @@ input[type=text], select, textarea {
     font-size: 100%;
     line-height: 1.3;
   }
-.intro-death {
-  font-size: .8232rem;
-  line-height: 1.3rem;
-}
 
-.quotes, .quotes-2, .quotes-3 {
-  font-size: .7715rem;
-  line-height: 1.3rem;
-  margin-left: 0;
-}
+  .intro-death {
+    font-size: .8232rem;
+    line-height: 1.3rem;
+  }
+
+  .quotes, .quotes-2, .quotes-3 {
+    font-size: .7715rem;
+    line-height: 1.3rem;
+    margin-left: 0;
+  }
+
   h1,
   p {
     margin: 0 0 1.3rem;
   }
 
 }
-
 
 @media only screen and (min-width: 38em) {
 
@@ -434,29 +426,28 @@ input[type=text], select, textarea {
     line-height: 1.5;
   }
 
-.cards {
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 1em;
-  padding: 2em;
-}
+  .cards {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 1em;
+    padding: 2em;
+  }
 
-
-.wrapper {
+  .wrapper {
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2em;
     margin-bottom: 2em;
-}
+  }
 
-.border-thingz{
-  border-top: #580000 .2rem solid;
-  border-bottom: #580000 .2rem solid;
-  margin-left: 2em;
-  margin-right: 2em;
-}
+  .border-thingz {
+    border-top: #580000 .2rem solid;
+    border-bottom: #580000 .2rem solid;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 
   h1,
   p {
