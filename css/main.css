@@ -44,6 +44,10 @@ html {
   justify-content: center;
 }
 
+.nav a:hover {
+  color: #8b0101;
+}
+
 .nav a:hover span {
   color: #8b0101;
 }
