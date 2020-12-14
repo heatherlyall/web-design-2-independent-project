@@ -126,9 +126,11 @@ html {
 }
 
 .wrapper {
-  display: grid;
-  grid-template-rows: 2fr 2fr 2fr;
   margin: 0 auto;
+  background-image: url("../images/spooky-car.jpg");
+  background-size: cover;
+  background-color: #000;
+  background-position: center center;
 }
 
 .tests {
@@ -169,10 +171,6 @@ position: relative;
   background-repeat: no-repeat;
 }
 
-
-.banner-img {
-  position: relative;
-}
 
 
 caption {
@@ -226,9 +224,11 @@ body {
   padding: 0;
   list-style-type: none;
   text-align: center;
-  position: absolute;
-  left: 20%;
-  top: 30%;
+  left: 40%;
+  top: 50%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .cards li {
