@@ -85,7 +85,6 @@ html {
   border-radius: 2em;
   margin-top: 1rem;
   text-align: center;
-  margin: 0 auto;
 }
 
 .chelle-btn {
@@ -117,9 +116,6 @@ html {
   top: 0;
 }
 
-.main-banner {
-  position: relative;
-}
 
 .tests {
   display: grid;
@@ -143,14 +139,6 @@ html {
 .quotes-3 {
   margin-right: 3rem;
   margin-left: 3rem;
-}
-
-.banner-image {
-  /* width: 50%;
-  left: 49%;
-  transform: translateX(-50%);
-  position: relative; */
-  position: relative;
 }
 
 .main-banner {
