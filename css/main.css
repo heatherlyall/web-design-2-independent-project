@@ -373,20 +373,10 @@ input[type=text], select, textarea {
     line-height: 1.3;
   }
 
-  .masthead {
-    background-color: #EEEEEE;
-    color: #000000;
-    display: block;
-    visibility: visible;
-    width: 100%;
-  }
-
-  .images {
-    display: block;
-    visibility: visible;
-    width: 100%;
-  }
-
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 
   h1,
   p {
